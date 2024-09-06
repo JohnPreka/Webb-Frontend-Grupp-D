@@ -1,13 +1,15 @@
-div {
-    width: 100px;
-    height: 100px;
+.container {
+    width: 150px;
+    height: 200px;
     background: red;
     transition: width 2s, height 2s, transform 2s;
+    display: flex;
+    
 }
   
 div:hover {
     width: 150px;
     height: 200px;
-    transform: rotate(180deg);
+    transform: rotate(720deg);
       transition-delay:0.5s;
     }
