@@ -1,20 +1,24 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body, html {
+    height: 100%;
+}
+header {
+    background-color: white;}
 .header {
+    color: #20371d;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 15px;
     background-color: white;
-    color: #20371d;
-    border-radius: 10px;
-    margin: 3px;
     font-weight: bold;
-    font-family:Verdana;
+    font-family: Verdana;
     font-size: 30px;
-    margin: 15px;
-    align-self: center;
-    justify-content: center;
-    }
+}
     .logo{
         align-self: center;
     }
@@ -22,38 +26,46 @@
 .explore {
     display: flex;
     background-color: #4353415e; 
+    justify-content: center;
     color: white;
     box-sizing: border-box;
+    margin: 20px 0;
+    padding: 20px;
     width: 100%;
-    height: 700px;
     border-radius: 10px;
-    margin: 10px;
-    justify-content: center;
+    min-height: calc(100vh - 100px); /* Takes full view height minus header/footer */
     }
 
     .post1 { 
+        display: flex;
         border-radius: 10px;
-        border-color: #ffb4e8;
         padding: 1rem;
         background-color: white;
         text-align:justify;
-        margin: 10px;
-        width: 70%;
-        display: flow-root;
+        max-width: 90%; /* Allow it to expand based on content but have a max limit */
+        width: auto;
+        margin: 10px auto; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
     }
        
         .left{
-            float: left;
+            display: flex;
+            align-content: center;
             width: 50%;
             margin-right: 1rem;
+            border-radius: 10px;
+        }
+        .left img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
         }
         .right{
-           float: right;
-           margin-left: 1rem;
-           text-align:justify;
-           padding: 1rem;
-            width: 50%;
-            height: 600px;
+            width: 45%;
+            padding: 1rem;
         }
 
     /* NAVIGATION BAR */
@@ -193,12 +205,18 @@
 
     
     /* FOOTER SECTION */
-    .footer{
+    footer {
+        background-color: #435341;
         display: flex;
         justify-content: center;
-        background-color: #435341;
+        align-items: center;
         height: 100px;
-        
+        color: white;
+        position: relative;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
     }
     .info{
         align-self: center;
