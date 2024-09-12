@@ -16,7 +16,7 @@ header {
     padding: 15px;
     background-color: white;
     font-weight: bold;
-    font-family: Verdana;
+    font-family:'PilcrowRounded-Bold';
     font-size: 30px;
 }
     .logo{
@@ -182,7 +182,7 @@ header {
     }
     .add-comment-input{
         font-size: 16px;
-        font-family: Verdana;
+        font-family:'PilcrowRounded-Bold';
         color: #333333;
         margin-left: var (--padding) ;
         outline: none;
@@ -197,7 +197,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         background-color: white;
-        font-family: Verdana;
+        font-family:'PilcrowRounded-Bold';
     }
         .home{
             align-self: flex-start;
@@ -255,7 +255,7 @@ header {
             }
         .search-input{
             font-size: 16px;
-            font-family: Verdana;
+            font-family:'PilcrowRounded-Bold';
             color: #333333;
             margin-left: var (--padding) ;
             outline: none;
