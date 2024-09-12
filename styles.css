@@ -71,9 +71,6 @@ img {
     align-self: center;
     justify-content: center;
     }
-    .logo{
-        vertical-align: middle;
-    }
 
 main {
     flex-grow: 1;
