@@ -35,7 +35,7 @@ header {
     display: flex;
     justify-content: center;
     align-items:baseline;
-    background-color: #e0ebd9;
+    background-color: #FFF1BE;
     padding: 30px;
     height: 80%; 
 }
@@ -199,7 +199,7 @@ header {
     background-color: white;
     font-family: 'Pilcrow Rounded', sans-serif;
     margin: 0 15px;
-}
+    }
     .home{
         align-self: flex-start;
         align-self: center;
@@ -273,7 +273,7 @@ header {
         margin: 1rem;
     }
     .search:hover{
-        box-shadow: 2px 2px 5px #FFF1BE;
+        box-shadow: 2px 2px 5px #c2e8f0;
     }
     .search:active{
         background-color: #FFF1BE;
@@ -290,7 +290,7 @@ header {
         .signup{
             align-self: flex-end;
             margin: 15px;
-            background-color:  #9EBF9D;
+            background-color:#c2e8f0;
             padding: 20px;
             border-radius: 20px;
 
@@ -309,7 +309,7 @@ header {
         .login{
             align-self: flex-end;
             margin: 15px;
-            background-color: #FFC0C7;
+            background-color: #c2e8f0;
             padding: 20px;
             border-radius: 20px;
         }
@@ -324,11 +324,10 @@ header {
             font-weight: bold;
             box-shadow: 2px 2px 5px #20371d;
         }
-
     
     /* FOOTER SECTION */
     footer {
-        background-color: #435341;
+        background-color: #c2e8f0;
         display: flex;
         justify-content: center;
         align-items: center;
