@@ -3,7 +3,7 @@
  ORANGE: #FFCA85
  GREEN: #9EBF9D
  PINK: #FFC0C7
- BLUE: #A5C7FF */
+ BLUE: #c2e8f0 */
 
  /* TEXT
 
@@ -27,6 +27,7 @@
 
  FOR BLUE BACKGROUND:
  BLUE: #0a6000 */
+
 *{
     margin: 0;
     padding: 0;
@@ -39,9 +40,17 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: Verdana, sans-serif;
+    font-family: 'Pilcrow Rounded', sans-serif;
 }
-img {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+    text-decoration: none; 
+}
+main img {
     border-radius: 10px;
     width: 100%;
     height: 100%;
@@ -52,18 +61,15 @@ img {
     display: flex;
     justify-content: center;
     background-color: white;
-    color: #000000;
+    color: #A5C7FF;
     border-radius: 10px;
     margin: 3px;
-    font-weight: bold;
-    font-family:Verdana;
-    font-size: 30px;
+    font-weight:bolder;
+    font-family: 'Pilcrow Rounded', sans-serif;
+    font-size: 50px;
     margin: 15px;
     align-self: center;
     justify-content: center;
-    }
-    .logo{
-        vertical-align: middle;
     }
 
 main {
@@ -85,7 +91,7 @@ main {
     box-sizing: border-box;
     border-radius: 10px;
     margin: 10px;
-    font-family: Verdana;
+    font-family:'PilcrowRounded-Bold';
     }
     .post1, .post2, .post3,  .post4, .post5, .post6, .post7, .post8, .post9{
         background-color: #ffffff;
@@ -113,7 +119,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    font-family: Verdana;
+    font-family: 'Pilcrow Rounded', sans-serif;
     margin: 0 15px;
 }
     .home{
@@ -125,14 +131,14 @@ main {
         border-radius: 20px;
     }
     .home:hover{
-        background-color: #a6c3a2;
+        background-color: #FFF1BE;
         font-weight: bold;
         box-shadow: 2px 2px 5px #20371d;
     }
     .home:active{
-        background-color: #a6c3a2;
+        background-color: #9EBF9D;
         box-shadow: 2px 2px 5px #20371d;
-        color: #a6c3a2;
+        color: #000000;
         font-weight: bold;
     }
     .watch{
@@ -144,7 +150,7 @@ main {
         border-radius: 20px;
     }
     .watch:hover{
-        background-color: #a6c3a2;
+        background-color: #FFC0C7;
         font-weight: bold;
         box-shadow: 2px 2px 5px #20371d;
     }
@@ -173,7 +179,7 @@ main {
         }
     .search-input{
         font-size: 16px;
-        font-family: Verdana;
+        font-family:'PilcrowRounded-Bold';
         color: #333333;
         margin-left: var (--padding) ;
         outline: none;
@@ -189,10 +195,10 @@ main {
         margin: 1rem;
     }
     .search:hover{
-        box-shadow: 2px 2px 5px #20371d;
+        box-shadow: 2px 2px 5px #c2e8f0;
     }
-    .seatch:active{
-        background-color: #a6c3a2;
+    .search:active{
+        background-color: #FFF1BE;
         font-weight: bold;
         box-shadow: 2px 2px 5px #20371d;
         font-weight: bold;
@@ -206,13 +212,13 @@ main {
         .signup{
             align-self: flex-end;
             margin: 15px;
-            background-color:  #a6c3a2;
+            background-color:#c2e8f0;
             padding: 20px;
             border-radius: 20px;
 
         }
         .signup:hover{
-            background-color: #a6c3a2;
+            background-color: #FFC0C7;
             font-weight: bold;
             box-shadow: 2px 2px 5px #20371d;
         }
@@ -225,7 +231,7 @@ main {
         .login{
             align-self: flex-end;
             margin: 15px;
-            background-color: #a6c3a2;
+            background-color: #c2e8f0;
             padding: 20px;
             border-radius: 20px;
         }
@@ -245,7 +251,7 @@ main {
 .footer{
     display: flex;
     justify-content: center;
-    background-color: #43534132;
+    background-color: #c2e8f0;
     height: 100px;
     
 }
