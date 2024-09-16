@@ -253,6 +253,7 @@ main {
     justify-content: center;
     background-color: #c2e8f0;
     height: 100px;
+    max-width: 100%;
     
 }
 .info{
