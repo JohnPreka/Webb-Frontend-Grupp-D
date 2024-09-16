@@ -31,165 +31,135 @@ header {
         align-self: center;
     }
 /* EXPLORE*/
-.post1-container{
+.post1-container {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
-    align-items:baseline;
+    align-items: center;
     background-color: #FFF1BE;
     padding: 30px;
-    height: 80%; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
 }
 .post1 {
     display: flex;
-    background-color: #4353415e; 
+    flex-direction: column; 
+    background-color: white;
     justify-content: center;
-    color: white;
-    box-sizing: border-box;
-    margin: 20px 0;
-    padding: 20px;
-    width: 100%;
+    align-items: center;
+    width: 60%;
     border-radius: 10px;
-    min-height: calc(100vh - 100px); /* Takes full view height minus header/footer */
-    }
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    .post1-image {
+    border-radius: 15px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.post1-image img {
+    width: auto;
+    height: auto;
+    max-width: 100%; 
+    border-radius: 15px;
+}
 
-    .post1 { 
-        display: flex;
-        border-radius: 10px;
-        padding: 1rem;
-        background-color: white;
-        text-align:justify;
-        max-width: 90%; /* Allow it to expand based on content but have a max limit */
-        width: auto;
-        margin: 10px auto; 
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-between;
-    }
-       
-        .left{
-            display: flex;
-            align-content: center;
-            width: 50%;
-            margin-right: 1rem;
-            border-radius: 10px;
-        }
-        .left img{
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: cover;
-        }
-        .right{
-            width: 45%;
-            padding: 1rem;
-        }
+.post1-content {
+    width: 100%;
+    background-color: white;
+    color: #20371d;
+    padding: 0 2rem;
+}
 
-    .post1-image { 
-        border-radius: 15px;
-        padding: 3rem;
-        background-color: white;
-        margin: 10px;
-        width: 50%;
-    }
-    .post1-image img {
-        border-radius: 15px;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-      }
-     
-    .post1-content { 
-        border-radius: 10px;
-        padding: 3rem;
-        background-color: white;
-        color: #20371d;
-        margin: 10px;
-        width: 50%;
-    }
-    .post1-icons{
-        display: flex;
-        justify-content: flex-start;
-        align-items:center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-bottom: 2rem;
-    }
+.post1-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
 
-    .save{
-        justify-self: flex-end;
-        border-radius: 15px;
-        background-color: #2633245a;
-        color: white;
-        padding: 0.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
 
-    .profile{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
+.profile-picture img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
 
-    }
-    .profile-picture img{
-        border-radius: 50%;
-        border: solid #20371d;
-    }
-    .profile-name{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        justify-content: left;
-    }
-    .follow{
-        align-self: center;
-        border-radius: 15px;
-        background-color: #26332429;
-        color: white;
-        width: 2rem;
-        padding: 0.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .comment1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    }
-    .comment1-profile img{
-        border-radius: 50%;
-        border: solid #20371d;
-    }
-    .comment1-number{
-        justify-items: space-evenly;
-        width: 300px;
-    }
-    .add-comment{
-        --padding: 30px;
-        display: flex;
-        align-items:flex-start;
-        align-items: center;
-        margin: 15px;
-        padding: var (--padding);
-        border-radius: 28px;
-        background: #f6f6f6;
-        transition: background 0.25s;
-        width:max-content;
-        width: 350px;
-    }
-    .add-comment-input{
-        font-size: 16px;
-        font-family:'PilcrowRounded-Bold';
-        color: #333333;
-        margin-left: var (--padding) ;
-        outline: none;
-        border: none;
-        background: transparent;
-        width: 350px;
-        }
+.follow {
+    border-radius: 15px;
+    background-color: #26332429;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+/* Comment section */
+.comments {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.comment1-number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.comment1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.comment1-profile img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.comment1-username {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    background: #f6f6f6;
+    padding: 0.5rem 1rem;
+    border-radius: 28px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-comment-input {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'PilcrowRounded-Bold';
+    color: #333333;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
     /* NAVIGATION BAR */
     .nav{
     display: flex;
