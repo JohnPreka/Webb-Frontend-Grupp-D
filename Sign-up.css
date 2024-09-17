@@ -1,0 +1,55 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0HBw0IBwcHBw0HBwcHCA8ICQcNFREWFhURExMYHSggGBolGxMTITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PEisZFRkrKys3NzcrKy0tKy0tKy0tKysrKy0rLSsrLSsrKysrKysrLSsrKysrKysrKy0rKysrLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMABAUHBv/EAB0QAQEBAAMBAQEBAAAAAAAAAAABAgMREhNhURT/xAAbAQADAQEBAQEAAAAAAAAAAAABAgMEAAYFB//EAB0RAQEBAAMBAQEBAAAAAAAAAAABAgMREhMEMSH/2gAMAwEAAhEDEQA/APQ+YzjdMwMw8n6e6+jnnGPzdEwPgPQe3P8AMfm6fAzA+y+3N8x+bp8D4GclLdub5D83T4Hwecxbpy/Ifm6fAzCs5k7XNOM+cOiYGYN9O07pGYPONWYPMB7JdIzjNONeYNMKZ5+ktOf5FvD/AB2zA/Ns4/0M+8uCcR5xOu8Qzjavt2z2OX4mnG65xj8wvIDmmDTjX+Zpgl2Pbl3w9oa4Hp+C64Wnh5ukdx5nw/G/zz+PQ+IzifRxzMXJl53+b8GcH49KcTXhaM8zFyYcGeD8VzwT+OucR88Z/oyaw5pwQHdONg9l8PzcyaZPMmkfmnb9LuiTJpg8hpHdluk5gZlToenei+k/I+VPIzI9h6S8j5V8mmR7D0jMGmFZk0y4t0jMGmFpg0wM1SXSEweYWmB8H90l0lMnmVJg0y70S1OZPMnmTSHzy2J2p+BmFZDTLXx86OolOM3zVmTzKl5SOf5j83R5GYdOUtQnGaca8waZPOXolct4m+Ts8N823i50Nxx/Ifm6/m3zbscrJvLk+Rpxur5tONpnIy6w5/mzq8MPsvh+PkNIENH59099RkGRoaD5JWkGQYMjvJbQ6NIMhpHeS2hIaZGQ0juqW0Jk0yaQ0gktLMmmTSGkMS0syaZNIaQ3RbSzI+TyGkHolqcyaZPIaZd5LanMmkUmRmRksJaSQ8hpk0ypLSWlmTTJpk0yeWktLMmmTTJ5lSUtpJk3k8ybpfFsT0l5HwrIPTbx7rPqJeW8q9N0240hYl5ZToVeyeX4WGkaQ0jx2uN7W1oaNIMjpktrQ0aQZD+C00hpAh4PzTtGQ8gZUkH5EtCQ8gyGkd8k7QkNIMhpHfIloSGkGQ0jvnS3RZDSGkNIPzJdFkNIaQ0yPgt0WQZDzIyB4LaWQ0hpBkGZLaEh5GkPIpnJLQkNIMhpFs4JaEg9DIbpbOSWl6Hoeh6WxOk6XpujdM15qVhOmN0ynZen4eQ0gyGkfG3wvWei+R8nkHpD59B6J0aQ3TdK54yXTSHkCQ8i04UrsZDwJDwfildmhoENB+Kd2aGhYaO+RLs0NCw8D5FuxkNIENHfIl2aQ0gQ0D5Fu2kNIMNIF4g9BIMhpDSF+QeiSHkHoYbPES7aQ3QC0Z4k7phZofwHoWYR8u7BhA+aFgCzH7Dp+HxVsuTj06cady8L705O1JB6aUzHriH2HTdGg9BnPRbosNG6Fpzln1o0NCw0VmEbo8NCQ0N807o8NCQZXfNO7UhonKaUPmW7UhpU5TSu+Rfasp4lKaUvyD2rKeVKU8ofIv0UhonKaUPmHs4l7bs04y3Z+27J23o8wX0p2yfo0o3IzRxJKbtOw8osDJ/w4sDG7d0+c8PK7OPbxuLkdvDyvs8vC08fO9TOlJpx8e186fO5OFpnJ26JTRGaPNM94x9KD0WU0o5nSeq0NAhotlHTQ0AVIjqjDFE3SV0aGhDSj5Suzw0qfZpR8p3kUlPKlKeUPJfasp5UpTSh5D2rKaVKUfQeXe1ew9J+guh8h7Uug9o3ZLs0wS8jpmzTbjm1M7dcDnkdc0eVzZ2rnSOstONLdt2nNG7QuV5TdsTtg8mfKcV08W3LhbD0+ssk5Ono8XI6sbeZxbdnHtj5OJp4+d250pmubGls1j1xNE5V5Tyo5p5Uvm68isppU5TSjMJ62fseydj2pMoa2ftuydt2eZZ9cinYypdjKbyhrkVlNKlKeUfKV5FZTypSmhene1ZTSpyj2HTvSnpvSfbdu6d6P6LdFuiXQyBdGuiXRbol0eZJaf0pjbm7PjQ3JsX/AF240rnTkxpbOmfWW3FdM0PpGaH0lctOar6ZL0weDdvl+Fs1DFWy9HY+b6WzXRx7c2Vc1K57dOTp28fIvnbz86XxyIa41s87vztSacWeRXPIheNT7R1zRppzTZpsngt5XT6b0hNt7HwjrlX9N6Q9j7NMs+uVb0MqM0fNN5QvItmqSo5qmaWwPSsp5UpTyksNKpKPafbdh0ftTst0S6JdjMu9KXRLpO7LdmmS+j3RbSem7P0MN2bNT7NmusUy6MVbOnPiq5qOo18bolN2jKaaSuWrJ+2J6AvR+nzXjq2a5caWzp6Gx8W7dGapK55o80Swl26JTTSE0aaL5JeR0Z5Fc8rj9D7Lcdk+9jvnKecrz5sZyF+Rb+p6M5R+rz5yHnIHyS1+l3fQZtyZ0rgLjpO81rqzpbNc+F8J6hs6q2VM1LKkqVWzVJR7T7b0HSkqvot2ldp65BmXXa12S7QvIS8h5gvpe7D2hdh7N5NK6PTTTnmzTbvKma6JT5rnmz50W5Xw6s1bNcuNLZ0lqNmIvKPacpu0rGnJu2J2wdHfLsci+eRy5i2Y9FZHmbt0Z2pNoSGkL1EtclXmzzaEhpC9RHXJVvbe0+h8h1EdclU9jNEmabOA6iN3VJpXFTzh0cfGW9OltU446ePJOPjdOMM+qviU2ItkucqSI2tGYaD2VqVWGuia2XWkd7NMuuj65EtciWto65FZhO6XvIW8jm1yJ3lVmHe3XeVvo4vq31HwpnTunIacjhnIfPIFwvmu7O1cbcOeRbj2nctWHfjS2dOLG3RjSGst3G686PK586UmkbGnMU7ZP0wdC+ZZquazPQV5C6quapKzETtp4eMxU7Tw8jMWp2nmVc4BiVy+MOnj42ZHVVzI6cYWzlmQtaMw8hugYikak1WYYKO9OfemZbMT1UN7Q3tmXzErUd7R1tmWkAl5GnKzH6iuaacymeZmCyNOKrjldHHysyOpGzidPHyOnHIzM25H0ONfPIecjMhZGrP8H6MzO6jn/9k=) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.registration-form h1 {
+    font-size: 30px;
+    text-align: Bottom;
+    text-transform: uppercase;
+    margin: 30px 0;
+} 
+
+.registration-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button {
+    font-size: 20px;
+    font-size: large;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover {
+    color: blue;
+}
